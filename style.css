@@ -1,0 +1,25 @@
+html {
+	text-align: center;
+}
+
+.img-selection {
+	border: 1px solid black;
+}
+
+.playerBoard h3{
+	display: inline;
+}
+
+.computerBoard h3 {
+	display: inline;
+}
+
+#btn {
+	margin-top: 2em;
+	font-size: 2em;
+
+}
+
+.active{
+	display: none;
+}
