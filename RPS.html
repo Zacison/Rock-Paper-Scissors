@@ -3,6 +3,7 @@
 <head>
 	<title>Zach's Rock Paper Scissors</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -14,27 +15,32 @@
 	
 <section id="main-content">
 
-		<p>To play, click on one of the following. Whoever gets to 5 first wins!</p>
+		
 
 		<div class="scores">
 				<div class="playerBoard">
-					<h3>Player Score: </h3>
+					<h3>User: </h3>
 					<h3 id="playerScore">0 </h3>
 				</div>
 				
 				<div class="computerBoard">
-					<h3 >Computer Score: </h3>
+					<h3 >Comp: </h3>
 					<h3 id="comScore">0 </h3>
 				</div>	
-				
+		</div>
+
+
+		<div class="text">
+			<p>Whoever gets to 5 first wins!</p>
 			<p id="instructions">Your results will go here</p>
 			<p id="five-result"></p>
 		</div>
 
+
 		<div class="img-selection">
-			<img id="rock-img" src="images/rock.png">
-			<img id="paper-img" src="images/paper.png">
-			<img id="scissors-img" src="images/scissors.png">
+			<img id="rock-img" class="image" src="images/rock.png">
+			<img id="paper-img" class="image" src="images/paper.png">
+			<img id="scissors-img" class="image" src="images/scissors.png">
 		</div>
 
 <button id="btn" class="active">Click To Play Again</button>

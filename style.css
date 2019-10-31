@@ -1,9 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
 html {
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #24272E;
+	color: white;
+
+}
+
+p {
+	font-weight: bold;
+	font-size: 24px;
 }
 
 .img-selection {
-	border: 1px solid black;
+	transition: all 0.3s ease;
 }
 
 .playerBoard h3{
@@ -15,11 +33,121 @@ html {
 }
 
 #btn {
-	margin-top: 2em;
+	margin-top: 1em;
 	font-size: 2em;
+	padding: 10px;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	border: 2px solid grey;
+	border-radius: 3px;
+	transition: transform .2s;
+
 
 }
 
 .active{
 	display: none;
 }
+
+header {
+	background-color: white;
+	padding: 10px 0px;
+	color: black;
+	font-size: 1.5em;
+}
+
+#main-content {
+	padding-top: 20px;
+}
+
+.scores {
+	border: 5px solid white;
+	border-radius: 4px;
+	width: 170px;
+	margin: 20px auto;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	padding: 40px 10px;
+}
+
+.playerBoard {
+	background-color: #E2584D;
+	position: absolute;
+	top: 25px;
+	left: -42px;
+	padding: 1px 3px;
+	border-radius: 4px;
+}
+
+.computerBoard {
+	background-color: #E2584D;
+	position: absolute;
+	top: 25px;
+	right: -46px;
+	padding: 1px 3px;
+	border-radius: 4px;
+}
+
+.image {
+	border: 3px solid white;
+	border-radius: 50%;
+	padding: 10px;
+	width: 8em;
+	transition: all 0.3s ease;
+	margin: 20px;
+}
+
+.image:hover {
+	cursor: pointer;
+	background-color:grey;
+	transform: scale(1.05);
+}
+
+button:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.text p {
+	padding: 10px 0;
+}
+
+.green-glow {
+	border: 4px solid green;
+	box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+	border: 4px solid red;
+	box-shadow: 0 0 10px #D01115;
+}
+
+.grey-glow {
+	border: 4px solid grey;
+	box-shadow: 0 0 10px #25292b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
